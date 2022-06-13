@@ -5,7 +5,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/kevguy/foundation/web"
+	"github.com/choco-up/go-foundation/web"
 	"net/url"
 	"reflect"
 	"strings"

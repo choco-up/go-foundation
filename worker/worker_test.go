@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kevguy/foundation/worker"
+	"github.com/choco-up/go-foundation/worker"
 )
 
 // Success and failure markers.

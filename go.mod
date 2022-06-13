@@ -1,4 +1,4 @@
-module github.com/kevguy/foundation
+module github.com/choco-up/go-foundation
 
 go 1.18
 

@@ -4,7 +4,7 @@ import (
 	"embed" // Calls init function.
 	"testing"
 
-	"github.com/kevguy/foundation/keystore"
+	"github.com/choco-up/go-foundation/keystore"
 )
 
 // Success and failure markers.
