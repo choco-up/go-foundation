@@ -3,7 +3,7 @@ module github.com/choco-up/go-foundation
 go 1.18
 
 require (
-	github.com/aws/aws-sdk-go v1.44.24
+	github.com/aws/aws-sdk-go v1.44.32
 	github.com/dimfeld/httptreemux/v5 v5.4.0
 	github.com/go-redis/redis/v8 v8.11.5
 	github.com/golang-jwt/jwt/v4 v4.4.1
@@ -15,8 +15,8 @@ require (
 	go.opentelemetry.io/otel v1.7.0
 	go.opentelemetry.io/otel/trace v1.7.0
 	go.uber.org/zap v1.21.0
-	golang.org/x/oauth2 v0.0.0-20220524215830-622c5d57e401
-	google.golang.org/api v0.81.0
+	golang.org/x/oauth2 v0.0.0-20220608161450-d0670ef3b1eb
+	google.golang.org/api v0.83.0
 )
 
 require (
@@ -34,11 +34,11 @@ require (
 	go.opentelemetry.io/otel/metric v0.30.0 // indirect
 	go.uber.org/atomic v1.7.0 // indirect
 	go.uber.org/multierr v1.6.0 // indirect
-	golang.org/x/net v0.0.0-20220520000938-2e3eb7b945c2 // indirect
+	golang.org/x/net v0.0.0-20220607020251-c690dde0001d // indirect
 	golang.org/x/sys v0.0.0-20220520151302-bc2c85ada10a // indirect
 	golang.org/x/text v0.3.7 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
-	google.golang.org/genproto v0.0.0-20220519153652-3a47de7e79bd // indirect
-	google.golang.org/grpc v1.46.2 // indirect
+	google.golang.org/genproto v0.0.0-20220602131408-e326c6e8e9c8 // indirect
+	google.golang.org/grpc v1.47.0 // indirect
 	google.golang.org/protobuf v1.28.0 // indirect
 )
