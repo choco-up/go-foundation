@@ -240,6 +240,7 @@ func NamedQuerySlice(ctx context.Context, log *zap.SugaredLogger, db *sqlx.DB, q
 	if err != nil {
 		return err
 	}
+	defer rows.Close()
 
 	slice := val.Elem()
 	for rows.Next() {
@@ -267,6 +268,7 @@ func NamedQueryStruct(ctx context.Context, log *zap.SugaredLogger, db *sqlx.DB, 
 	if err != nil {
 		return err
 	}
+	defer rows.Close()
 	if !rows.Next() {
 		return ErrNotFound
 	}
@@ -323,6 +325,7 @@ func NamedQuerySlicev2(ctx context.Context, log *zap.SugaredLogger, db sqlx.ExtC
 	if err != nil {
 		return err
 	}
+	defer rows.Close()
 
 	slice := val.Elem()
 	for rows.Next() {
@@ -350,6 +353,7 @@ func NamedQueryStructv2(ctx context.Context, log *zap.SugaredLogger, db sqlx.Ext
 	if err != nil {
 		return err
 	}
+	defer rows.Close()
 	if !rows.Next() {
 		return ErrDBNotFound
 	}
